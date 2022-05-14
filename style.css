@@ -1,0 +1,344 @@
+body 
+{
+  /* background-color:rgb(24, 23, 23);*/
+   background-repeat: no-repeat;
+   background-image: url("b12.png");
+   background-size:auto;
+}
+
+   
+.container1
+{
+   display:flex;
+   justify-content: space-between;
+   
+ 
+ }
+ 
+ 
+ 
+ .container2{
+ 
+   display: flex;
+   margin-top: 230px;
+ 
+ 
+ }
+ 
+ 
+ #home{
+ 
+   background-size: cover,contain;
+   width: 100%;
+ 
+ 
+ 
+ }
+ 
+ 
+ .right-nav{
+   display: flex;
+   justify-content: center;
+   /*margin: 10px 10px 10px 10px;*/
+   
+   
+ 
+ 
+ }
+ 
+ .f1{
+   /*color: white;
+   padding: 20px;
+   margin-right: 5px;
+   background-color: turquoise;
+ */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: skyblue;
+   border:2px solid black;
+   margin: 12px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   border-radius: 12px;
+   
+ }
+ 
+ .f2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: skyblue;
+   border:2px solid black;
+   margin: 12px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   border-radius: 12px;
+ }
+ 
+ .f3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: skyblue;
+   border:2px solid black;
+   margin: 12px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   border-radius: 12px;
+ 
+ }
+ 
+ 
+ 
+ .body1 {
+   background-image: url(home1.jpeg);
+ 
+ 
+ 
+ }
+ 
+ 
+ .parent{
+ 
+   display:flex;
+   justify-content:space-between;
+  /* background-color:black;*/
+   margin-top: 0px;
+   margin-left: 0px;
+   align-items: center;
+   
+   
+   
+ }
+    
+ 
+ #tlogo{
+   width:60%
+ 
+ 
+ }
+ 
+ #klogo{
+   display:flex;
+   width:35%;
+   justify-content: flex-end;
+   margin-right: 0px;
+   
+ 
+ 
+ }
+ 
+ #dlogo{
+   width:80%
+ 
+ 
+ }
+ 
+ .frame{
+ 
+   display:flex;
+   margin-top: 65px;
+   margin-left:90px;
+  
+   
+ }
+ 
+ #clogo{
+ 
+   display: flex;
+   width:64%;
+   margin-top: 2px;
+   padding-left: 20px;
+   position: relative;
+   z-index: 1;
+   
+
+ }
+ 
+ #plogo{
+   position: relative;
+   width:55%;
+   display: flex;
+   margin-top: 22px;
+
+ 
+ }
+ #platel{
+  /*width:200px;*/
+ 
+  position: absolute;
+  width: 270px;
+  height:60px;
+  top: 275px;
+  left: 925px;
+
+}
+ 
+ .plateframe{
+ 
+   display: flex;
+   flex-direction: column;
+   align-content: flex-start;
+   justify-content: space-between;
+   margin-left: 80px;
+   margin-top: 20px;
+ 
+ 
+ }
+ 
+ .ptext{
+   display: flex;
+   color: blue;
+   margin-top: 0px;
+   margin-left: 20px;
+
+ }
+ 
+ .ntext{
+   display: flex;
+   color: blue;
+   margin-top: 45px;
+   margin-left: 20px;
+
+ }
+ 
+ 
+ 
+ .plateframe h2{
+ 
+   display: flex;
+   color: blue;
+   margin-top: 0px;
+   margin-left: 150px;
+   padding-top: 10px;
+
+ }
+
+ 
+ 
+ 
+ 
+ #nlogo{
+   position: relative;
+   display:flex;
+   width:55%;
+   margin-top: 30px;
+
+ }
+
+ #textl{
+ 
+  
+  position: absolute;
+ 
+  top: 465px;
+  left: 925px;
+  height: 45px;
+  width: 280px;
+  /*right: 50px ;
+  bottom: 50px;*/
+  
+  
+}
+
+ 
+ .carframe{
+ 
+   margin-left:100px;
+   margin-bottom: 50px;
+
+ }
+ 
+ .carName{
+ 
+   display:flex;
+   color:blue
+ }
+ 
+ 
+ .cframev{
+   display:flex;
+   flex-direction: column;
+ 
+ 
+ }
+ 
+ .cframev h2{
+ 
+   display: flex;
+   color: blue;
+   margin-top: 0px;
+   margin-left: 240px;
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ .carframe{
+   position: relative;
+   margin-left:30px;
+  
+ }
+ 
+ #clogo{
+ 
+   position: relative;
+  
+   margin-top: 0px;
+   padding-left: 20px;
+  
+ }
+
+ #carl{
+ 
+  
+   position: absolute;
+   width: 380px;
+   height:250px;
+   top: 45px;
+   left: 75px;
+   /*right: 50px ;
+   bottom: 50px;*/
+   
+   
+ }
+ 
+ 
+ .div1{
+ 
+   display:flex;
+   justify-content: flex-start;
+ 
+ }
+ 
+ .div3{
+   display:flex;
+   justify-content: center;
+   margin-left:350px;
+ 
+ }
+
+ 
+#bumble{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+   
+ }
+ 
+ .div2{
+   display: flex;
+   margin-left: 60px;
+   justify-content: flex-end;
+ 
+ 
+ } 
+
+
+
+ 

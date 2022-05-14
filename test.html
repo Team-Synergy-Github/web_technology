@@ -1,0 +1,29 @@
+<html>
+<head><title>Change image SRC</title>
+<script type="text/javascript">
+var i=4;
+function replaceImage(e) {
+    
+    var image1= document.getElementById('image1');
+    var image2= document.getElementById('image2');
+    image1.src = 'car1_'+i+'.jpeg';
+    image2.src = 'car1_'+i+'.jpeg';
+    
+
+    i++;
+   
+
+  
+  
+}
+
+</script>
+</head>
+<body>
+<a href='#' onClick=' setInterval(replaceImage,500);' title='Reload Simage'>Replace Image</a>
+ <img width=328 height=153 id="image1" src='klogo.png'/>
+ <img width=328 height=153 id="image2" src='klogo.png'/>
+</body>
+</html>
+
+
